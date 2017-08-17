@@ -10,6 +10,11 @@ function [index, index2] = ActiveLearningGC( M, K )
 %
 % We want to minimize the condition number of Mout, (k(Mout))
 %
+% Reference:
+% Xu, Hongteng, et al. 
+% "Active Manifold Learning via Gershgorin Circle Guided Sample Selection." 
+% AAAI. 2015.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % log(Min), so that log(k(Min))=lambda_{max}(logMin)-lambda_{min}(logMin)
