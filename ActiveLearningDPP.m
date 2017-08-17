@@ -4,6 +4,11 @@ function [indexU, indexL] = ActiveLearningDPP( X, options, L )
 %
 % Active Learning based on Determinantal Point Processes
 %
+% Reference:
+% Wachinger, Christian, and Polina Golland. 
+% "Diverse Landmark Sampling from Determinantal Point Processes for Scalable Manifold Learning." 
+% arXiv preprint arXiv:1503.03506 (2015).
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [~,N]=size(X);
