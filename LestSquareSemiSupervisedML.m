@@ -2,13 +2,19 @@ function Z = LestSquareSemiSupervisedML( X, Y, L, K, d, beta)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% Spectral Method for Semi-supervised manifold learning
+% Least-squares Method for Semi-supervised manifold learning
 % X: samples
 % Y: latent variable of labeled samples
 % L: X(:,1:L) labeled samples
 % K: the number of neighbors
 % d: low-dimension of latent space
 % 0<alpha1, alpha2<1, lambda: parameters
+%
+% Reference:
+% Yang, Xin, et al. 
+% "Semi-supervised nonlinear dimensionality reduction." 
+% Proceedings of the 23rd international conference on Machine learning. 
+% ACM, 2006.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
