@@ -5,7 +5,7 @@ Active manifold learning combines manifold landmarking with semi-supervised mani
 # References
 _Semi-supervised manifold learning_:
 * Yang, Xin, et al. "[Semi-supervised nonlinear dimensionality reduction.](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2006_YangFZB06.pdf)" Proceedings of the 23rd international conference on Machine learning. ACM, 2006.
-* Zhang, Zhenyue, Hongyuan Zha, and Min Zhang. "[Spectral methods for semi-supervised manifold learning.](http://ieeexplore.ieee.org/abstract/document/4587381/)" Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on. IEEE, 2008.
+* Zhang, Zhenyue, Hongyuan Zha, and Min Zhang. "[Spectral methods for semi-supervised manifold learning.](http://ieeexplore.ieee.org/abstract/document/4587381/)" CVPR 2008.
 
 _Manifold landmarking_:
 * De Silva, Vin, and Joshua B. Tenenbaum. [Sparse multidimensional scaling using landmark points.](http://graphics.stanford.edu/courses/cs468-05-winter/Papers/Landmarks/Silva_landmarks5.pdf) Vol. 120. Technical report, Stanford University, 2004.
