@@ -5,6 +5,11 @@ function [indexU, indexL] = ActiveLearningGD( X, options, L )
 % Active learning via maximzing the minimum geodesic distance between
 % landmark points
 %
+% Reference:
+% De Silva, Vin, and Joshua B. Tenenbaum. 
+% "Sparse multidimensional scaling using landmark points." 
+% Vol. 120. Technical report, Stanford University, 2004.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [~, N] = size(X);
