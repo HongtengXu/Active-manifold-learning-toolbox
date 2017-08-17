@@ -10,6 +10,10 @@ function Z = SpectralSemiSupervisedML( X, Y, L, K, d, alpha1, alpha2, lambda, ta
 % d: low-dimension of latent space
 % 0<alpha1, alpha2<1, lambda: parameters
 %
+% Reference:
+% Zhang, Zhenyue, Hongyuan Zha, and Min Zhang. 
+% "Spectral methods for semi-supervised manifold learning." CVPR 2008.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 N = size(X,2);
